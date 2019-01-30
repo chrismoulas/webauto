@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Tests" parallel="methods">
+	<test name="Web Tests." thread-count="1">
+		<classes>
+			<class name="testing.BookALesson">
+				<methods>
+					<include name="Book" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

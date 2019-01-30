@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="General Suite.">
+  <parameter name="url"  value="https://www.calendar.topaction.gr/"/>
+  <suite-files>
+	  <suite-file path="WebTests.xml" />
+  </suite-files>
+</suite>
