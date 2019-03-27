@@ -3,9 +3,14 @@
 <suite name="Web Tests" parallel="methods">
 	<test name="Web Tests." thread-count="1">
 		<classes>
-			<class name="testing.BookALesson">
+			<class name="testing.SearchAFlight">
 				<methods>
-					<include name="Book" />
+					<include name="lookForFlight" />
+				</methods>
+			</class>
+			<class name="testing.SearchAFlightNoResult">
+				<methods>
+					<include name="noFlightFound" />
 				</methods>
 			</class>
 		</classes>
